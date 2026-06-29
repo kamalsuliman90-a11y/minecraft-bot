@@ -1,0 +1,14 @@
+{
+  "name": "minecraft-bot",
+  "version": "1.0.0",
+  "description": "بوت تلغرام للتحكم بسيرفر ماينكرافت",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0",
+    "bedrock-protocol": "^3.34.0",
+    "@google/generative-ai": "^0.1.0"
+  }
+}
