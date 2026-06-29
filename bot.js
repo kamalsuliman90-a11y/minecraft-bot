@@ -6,7 +6,7 @@ const bedrock = require('bedrock-protocol');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 // ===== ضع التوكن هنا =====
-const TOKEN = 'ضع_التوكن_الخاص_بك_هنا';
+const TOKEN ='8786874765:AAGa4IlwDU-RF-bFbInP9NqNPXkDQA7FxV8';
 
 const bot = new TelegramBot(TOKEN, { polling: true });
 
