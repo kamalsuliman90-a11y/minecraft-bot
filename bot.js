@@ -753,6 +753,11 @@ bot.on('message', async (msg) => {
   const response = await askGemini(text);
   bot.sendMessage(chatId, response);
 });
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000;
+app.get('/', (req, res) => res.send('Bot is running!'));
+app.listen(port, () => console.log(`✅ Web server running on port ${port}`));
 
 process.on('SIGINT', () => {
   saveData();
